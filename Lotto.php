@@ -54,7 +54,7 @@ class Lotto {
       $date = date('d.m.Y', strtotime($date));
     }
 
-    return "Correct row is: [ " . join(" ", $basic_numbers) . " + "
+    return "Correct row for round \"$round / $year\" is: [ " . join(" ", $basic_numbers) . " + "
            . join(" ", $extra_numbers) . " ], cast on " . $date;
   }
 
