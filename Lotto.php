@@ -8,7 +8,7 @@ class Lotto {
   const databaseName = 'mcc_lotto';
 
   public function __construct() {
-    $this->db = new \sql(self::databaseName);
+    $this->db = new \database\sql(self::databaseName);
     $this->db->setShowError(true);
   }
 
