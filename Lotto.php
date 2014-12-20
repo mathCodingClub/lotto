@@ -1,6 +1,6 @@
 <?php
 
-require_once PATH_BITMCC . 'database/sql.php';
+namespace Lotto;
 
 class Lotto {
 
